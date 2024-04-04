@@ -1,0 +1,206 @@
+.body{
+    background-color:white;
+    font-size: larger;
+}
+.navbar{
+    display: flex;
+    gap: 10%;
+}
+.nava{
+font-size: larger;
+font-weight: bold;
+}
+.div1{
+display: flex;
+gap: 20%;
+padding: 7%;
+background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTF8zDeEuaAbObTo9-j0Qi4xoHSyzhBi1kcBpNMiQSqYIaV3W9R);
+ background-size: cover; 
+background-repeat: no-repeat;
+width: 90%;
+height: 100;
+}
+.orange{
+    color: orangered;
+}
+.bigblack{
+    font-size: 250%;
+}
+.bluebutton{
+    background-color: rgb(52, 145, 211);
+    color: white;
+    width: 30%;
+    padding: 18px;
+}
+.marginleft{
+    margin-left: 50%;
+    width: 60%;
+    padding: 28px;
+    background-color: azure;
+}
+.marginright{
+    margin-right: 60%;
+    width: 60%;
+    padding: 28px;
+    background-color: antiquewhite;
+}
+ .left{
+    margin-left: 60%;
+    padding: 12px;
+    width: 40%;
+}
+.right{
+    margin-right: 40%;
+    padding: 12px;
+    width: 40%;
+} 
+.div2{
+    display: flex;
+    gap: 10%;
+    margin-left: 25%;
+    
+
+
+}
+.gray{
+    color: grey;
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 5%;
+}
+.large{
+    font-size: larger;
+}
+.bluetext{
+    color: rgb(111, 119, 225);
+    margin-left: 80%;
+}
+.div6{
+    background-color: rgb(179, 241, 221);
+    padding: 80px;
+    width: 80%;
+}
+.div7{
+    background-color: antiquewhite;
+    color: gray;
+}
+.span{
+    margin-left: 70%;
+}
+.div8{
+   display: flex;
+   gap: 15%;
+}
+.biggerblack{
+    font-size: 300%;
+}
+.image4{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+}
+.img2{
+    width: 20%;
+    height: 20%;
+}
+.para{
+    display: flex;
+    gap: 14%;
+}
+.div9{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.photos{
+background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrY9_FbC__zTB624mMviMSRDFmwI3dqq8OB1NwJKgdPnuJfqiT);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 70%;
+}
+@media  screen and (min-width: 250px) and (max-width: 990px) {
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    .nava{
+    font-size: larger;
+    font-weight: bold;
+    }
+    .div1{
+    display: flex;
+    gap: 5%;
+    padding: 5%;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTF8zDeEuaAbObTo9-j0Qi4xoHSyzhBi1kcBpNMiQSqYIaV3W9R);
+     /* background-size: cover;  */
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 80%;
+    } 
+    .marginleft{
+        margin-left: 0%;
+        width: 60%;
+        padding: 12px;
+        background-color: azure;
+    }
+    .marginright{
+        margin-right: 0%;
+        width: 70%;
+        padding: 18px;
+        background-color: antiquewhite;
+    }
+
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6%;
+    margin-left: 15%;
+    
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    gap: 5%;
+}
+
+.div8{
+    display: flex;
+    gap: 15%;
+ }
+
+.div9{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14%;
+}
+
+
+
+.image4{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+}
+.div8{
+    flex-wrap: wrap;
+}
+
+.div6{
+    background-color: rgb(179, 241, 221);
+    padding: 80px;
+    width: 60%;
+}
+
+
+}
+
+
