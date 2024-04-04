@@ -114,6 +114,11 @@ height: 100;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.div10{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10%;
+}
 
 .photos{
 background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrY9_FbC__zTB624mMviMSRDFmwI3dqq8OB1NwJKgdPnuJfqiT);
@@ -127,6 +132,10 @@ background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrY9
         flex-wrap: wrap;
         gap: 3%;
     }
+    .body{
+        background-color:white;
+        font-size: large;
+    }
     .nava{
     font-size: larger;
     font-weight: bold;
@@ -138,7 +147,7 @@ background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrY9
     background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTF8zDeEuaAbObTo9-j0Qi4xoHSyzhBi1kcBpNMiQSqYIaV3W9R);
      /* background-size: cover;  */
     background-repeat: no-repeat;
-    width: 90%;
+    width: 85%;
     height: 80%;
     } 
     .marginleft{
@@ -150,8 +159,9 @@ background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrY9
     .marginright{
         margin-right: 0%;
         width: 70%;
-        padding: 18px;
+        padding: 13px;
         background-color: antiquewhite;
+        font-size: medium;
     }
 
 .div2{
@@ -164,8 +174,9 @@ background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrY9
 
 .div3{
     display: grid;
-    grid-template-columns: repeat(1,3fr);
-    gap: 5%;
+    grid-template-columns: repeat(2,3fr);
+    gap: 2%;
+    font-size: medium;
 }
 
 .div8{
@@ -196,8 +207,15 @@ background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrY9
 
 .div6{
     background-color: rgb(179, 241, 221);
-    padding: 80px;
+    padding: 50px;
     width: 60%;
+    height: 40%;
+}
+    
+.div10{
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    gap: 8%;
 }
 
 
